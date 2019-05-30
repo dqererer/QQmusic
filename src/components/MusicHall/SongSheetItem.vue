@@ -1,13 +1,13 @@
 <template>
   <div class="SongSheetItem" >
-    <div class="top" v-bind:style="{'background-image':'url(' + songItem.bg_img + ')'}">
+    <div class="top" v-bind:style="{'background-image':'url(' + SongSheetItem.bg_img + ')'}">
       <div class="play_num">
         <img src="../../assets/icon/play_num.png" alt="">
-        <span>{{songItem.playNum}}</span>
+        <span>{{SongSheetItem.playNum}}</span>
       </div>
     </div>
     <div class="bottom">
-      <span>{{songItem.title}}</span>
+      <span>{{SongSheetItem.title}}</span>
     </div>
   </div>
 </template>
@@ -16,7 +16,7 @@
 export default {
   name: "SongSheetItem",
   props: {
-    songItem: Object
+    SongSheetItem: Object
   },
   components: {},
   data() {

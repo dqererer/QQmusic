@@ -1,8 +1,8 @@
 <template>
   <div class="SongSheetList">
     <swiper :options="swiperOption">
-      <swiper-slide class="SongSheetItem" v-for="(slide, index) in swiperSlides" :key="index">
-        <SongSheetItem :songItem="slide"/>
+      <swiper-slide class="SongSheetItem" v-for="(SongSheetItem, index) in SongSheetItems" :key="index">
+        <SongSheetItem :SongSheetItem="SongSheetItem"/>
       </swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
@@ -26,7 +26,7 @@ export default {
           el: ".swiper-pagination"
         }
       },
-      swiperSlides: [
+      SongSheetItems: [
         {
           bg_img: require("../../assets/bg/radio_face.jpg"),
           playNum: 1110,
