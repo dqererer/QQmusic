@@ -1,14 +1,19 @@
 <template>
   <div class="PlayBar">
-    <div class="music_info">
+    <!-- <div class="music_info">
       <img v-bind:src="music_info" alt="">
       <span>{{music_name}}-{{singer}}</span>
     </div>
     <div class="list">
       <img src="../assets/icon/list.png" alt="">
-    </div>
+    </div> -->
     <div class="play_button">
-      <img src="../assets/icon/play.png" alt="">
+      <!-- <img src="../assets/icon/play.png" alt=""> -->
+      <audio :src="require('../assets/music/1.mp3')" controls="controls">
+      </audio>
+
+      <!-- <audio src="song.ogg" controls="controls">
+      </audio> -->
     </div>
   </div>
 </template>
@@ -34,18 +39,18 @@ export default {
   width: 100%;
   position: fixed;
   bottom: 100px;
-  padding: 0 20px;
+  // padding: 0 20px;
   div {
     height: 100%;
   }
   .music_info {
-    // width: 60px;
     line-height: 50px;
     float: left;
     img {
       height: 120%;
       display: block;
       float: left;
+      border-radius: 25px;
     }
     span {
       font-size: 20px;

@@ -21,8 +21,8 @@
 export default {
   name: "NavBar",
   props: {
-    curTab:String,
-    switchTab:Function
+    curTab: String,
+    switchTab: Function
   },
   data() {
     return {
@@ -52,15 +52,15 @@ export default {
 <style scoped lang="less">
 .NavBar {
   position: fixed;
-  bottom: 10px;
   border-top: 1px solid #dad1d1;
   width: 100%;
   padding-top: 4px;
+  top: 658px;
   div {
     width: 42px;
     height: 42px;
     float: left;
-    padding: 10px 40px;
+    padding: 10px 44px;
     img {
       width: 100%;
     }

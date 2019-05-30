@@ -50,7 +50,7 @@ export default {
 <style scoped lang="less">
 .SlideShow {
   height: 170px;
-  width: 330px;
+  width: 100%;
   position: relative;
   .swiper-container,
   .swiper-wrapper {

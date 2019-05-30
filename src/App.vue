@@ -11,7 +11,7 @@
 <script>
 import Found from './components/Found.vue';
 import Mine from './components/Mine.vue';
-import MusicHall from './components/MusicHall.vue';
+import MusicHall from './components/MusicHall/MusicHall.vue';
 import NavBar from './components/NavBar.vue';
 import PlayBar from './components/PlayBar.vue';
 export default {
@@ -43,5 +43,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   /* margin-top: 60px; */
+  height: 100px;
 }
 </style>
