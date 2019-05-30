@@ -101,5 +101,8 @@ export default {
   .top {
     margin-top: 10px;
   }
+  .SongSheetList {
+    margin-top: 10px;
+  }
 }
 </style>

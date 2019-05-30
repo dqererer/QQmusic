@@ -118,6 +118,7 @@ export default {
   .content {
     width: 330px;
     margin: 0 auto;
+    padding-bottom: 80px;
     .top {
       height: 40px;
       width: 100%;

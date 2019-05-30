@@ -35,6 +35,7 @@ export default {
     height: 100px;
     width: 100%;
     position: relative;
+    border-radius: 8px;
     .play_num {
       position: absolute;
       left: 34px;

@@ -55,7 +55,9 @@ export default {
   border-top: 1px solid #dad1d1;
   width: 100%;
   padding-top: 4px;
-  top: 658px;
+  background-color: white;
+  z-index: 3;
+  bottom: 0px;
   div {
     width: 42px;
     height: 42px;
