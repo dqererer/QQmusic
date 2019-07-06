@@ -6,6 +6,7 @@
     <PlayBar/>
     <NavBar :curTab="curTab" :switchTab="switchTab"/>
   </div>
+  <!-- 注释 -->
 </template>
 
 <script>
